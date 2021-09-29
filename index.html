@@ -5,22 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/transition.css">
     <title>Portfolio Landing Page</title>
 </head>
 <body>
+    <!--  -->
     <header>
     <h1>Portfolio</h1>  
     <nav>
-        <ul>
-            <li><a href="#About Me">About Me</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="Assets/Images/Naji_Dia_Resume.pdf" target="_blank">Resume</a></li>
-        </ul>
+        <a href="#About">About Me</a></li>
+        <a href="#Projects">Projects</a></li>
+        <a href="#Contact">Contact</a></li>
+        <a href="Assets/Images/Naji_Dia_Resume.pdf" target="_blank">Resume</a></li> 
     </nav>
     </header>
-    <div class="subtitle-images">
-        <img class="subimg2" src="./Assets/Images/c8c150d881df43da72f0f12191fafac5.png" alt="Me!">
-    </div>
+    <section class="hero">
+        <div>
+            <img class="me" src="./Assets/Images/c8c150d881df43da72f0f12191fafac5.png" alt="photo"> 
+        </div>
+        <div class="hero-text">Me and My Father!</div>
+    </section>
+    <main>
+        <section class="card" id="AboutMe">
+            <h2>About Me</h2>
+            <p> Hi my name is, Naji Maan Dia 
+                I was born in Anaheim, California for a riveting love for technology. I enjoy troubleshooting, building, and learning about 
+                technology and what it encompasses! Currently I'm working as a Business System Analyst building out reports based on data to be utilized 
+                in making business impact decisions. I'm looking to transition into a software engineering role because it fits my personality and passion in life!
+            </p>
+        </section>
+        <section class="card" id="Projects">
+            <h2>Projects</h2>
+            <div class="flex">
+                <a href="#" class="flex-item password" >
+                    <div>
+                        <h3>Password Generator</h3>
+                    </div>
+                </a>
+                <a href="#" class="flex-item code-quiz">
+                    <div>
+                        <h3>Code Quiz</h3>
+                    </div>
+                </a>
+                <a href="#" class="flex-item day-planner">    
+                    <div>
+                        <h3>Day Planner</h3>
+                    </div>
+                </a>
+                <a href="#" class="flex-item weather-dashboard">
+                    <div>
+                        <h3>Weather Dashboard</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="card" id="Contact">
+            <h2>Contact</h2>
+        </section>
+    </main>
 </body>
 </html>
