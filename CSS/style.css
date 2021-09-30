@@ -9,16 +9,16 @@
     --primary-color: white;
     --background-color: #fffdd0;
     --secondary-color: rgb(52,67,70);
-    --text-color: rgb(17,122,213);
+    --text-color: rgb(194,209,232);
 }
 
 body{
-    background-color: var(--primary-color);
-    min-height: 100vh;
-    min-width: 100vw;
+    background-color: var(--text-color);
+
 }
 
 header {
+    padding: 15px 6% 15px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,6 +40,7 @@ h1 {
 }
 
 header nav {
+    padding: 15px 15px 15px 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -48,17 +49,19 @@ header nav {
 
 
 nav a {
-    font-size: 2em;
-    position: relative;
-    padding: 30px 30px 30px 40px;
+    text-decoration: none;
+    padding: 5px 10px;
     color: var(--background-color);
-    text-decoration: underline;
-    line-height: 120px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 10px;
+    font-size: 2rem;
 }
 
-nav a:hover{
-    text-decoration: none;   
+nav a:hover {
+    color: var(--secondary-color);
+    background-image: linear-gradient(var(--background-color) 0%, var(--background-color) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.25s ease-in;
 }
 
 .hero {
@@ -142,7 +145,7 @@ main {
     max-height: 150px;
     display: flex;
     align-items: flex-end;
-    padding: 0 0 20px 0;
+    padding: 0 0 0px 0;
     margin: 0.5em;
     text-decoration: none;
     background-size: 100%;
@@ -155,24 +158,26 @@ main {
     flex-basis: 100%;
 }
 
+.flex a {
+    background-position: center;
+    padding: 0 0 10px -0;
+}
+
 .password {
     background-image: url(/Assets/Images/network-security-best-practices-940x588.jpg);
 }
 
 .code-quiz{
     background-image: url(/Assets/Images/Best-Online-Quiz-Makers-Social.jpg);
-    background-position: center;
     background-size: 80%;
 }
 
 .day-planner {
     background-image: url(/Assets/Images/istockphoto-1279367257-170667a.jpg);
-    background-position: center;
 }
 
 .weather-dashboard {
     background-image: url(/Assets/Images/photo-1592210454359-9043f067919b.jfif);
-    background-position: center;
 }
 
 .flex-item div {
@@ -184,11 +189,44 @@ h3 {
     background-color: var(--secondary-color);
     font-size: 1.75em;
     background-position: center;
-    width: 123px;
+    width: 127px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .flex-item:hover {
     transition: all 0.5s;
     background-blend-mode: normal;
+}
+
+address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 2vw;
+}
+
+address a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: solid 5px var(--background-color);
+}
+
+.github {
+    height: 120px;
+}
+
+.twitter {
+    height: 135px;
+}
+
+
+address a:hover {
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+    background-repeat: no-repeat;
+    background-size: 100% 3em;
+    transition: all 0.25s ease-in;
 }
