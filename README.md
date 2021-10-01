@@ -1,17 +1,15 @@
 # <Your-Project-Title>
 
 ## Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-- What was your motivation? The motivation behind this project was to deepen my knowledge in html semantics and advanced CSS!
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.") Built this project as a launch for when I apply for jobs to prove my work/skills!
+- The motivation behind this project was to deepen my knowledge in html semantics and advanced CSS!
+- Built this project as a launch for when I apply for jobs to prove my work/skills!
 - What problem does it solve? I solved a lot of problems when learning how to utilize flexboxes and media queries.
-- What did you learn? I learned a lot about the interaction with flexboxes and how to setup a page based on where you want to put specific items within a container. 
+- I learned a lot about the interaction with flexboxes and how to setup a page based on where you want to put specific items within a container. 
 
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
+- [Projects Screenshots](#usage)
 - [License](#license)
 
 ## Installation
@@ -21,17 +19,16 @@ When you're ready to deploy, use the git add, git commit, and git push commands 
 
 Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
 
-## Usage
-Project Screenshots to portray the delay 
-    ![project screeshot 1](/Assets/Images/ProjectScreenshots/screenshot1)
-    ![[project screenshot 2]](/Assets/Images/ProjectScreenshots/screenshot2)
-    ![project screenshot 3](/Assets/Images/ProjectScreenshots/screenshot3)
+## Project Screenshots
+![project screenshot 1](../Assets/Images/ProjectScreenshots/screenshot1.png)   
+![[project screenshot 2]](../Assets/Images/ProjectScreenshots/screenshot2.jpg)
+![project screenshot 3](../Assets/Images/ProjectScreenshots/screenshot3.png)
 
 
 ## License
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2021] [Naji Maan Dia]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
