@@ -9,7 +9,8 @@
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Installation](#installation)
-- [Projects Screenshots](#usage)
+- [Project-URL](#Project-URL)
+- [Projects-Screenshots](#Project-Screenshots)
 - [License](#license)
 
 ## Installation
@@ -18,6 +19,9 @@ Create a new repository on your GitHub account and clone it to your computer.
 When you're ready to deploy, use the git add, git commit, and git push commands to save and push your code to your GitHub repository.
 
 Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+  
+## Project URL
+https://nodgyd.github.io/HW2-My-Portfolio/
 
 ## Project Screenshots
 ![project screenshot 1](./Assets/Images/ProjectScreenshots/screenshot1.png)   
