@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1050px){
+    header {
+        padding: 0px 0px;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+        padding: initial;
+    }
+    header nav {
+        justify-content: center;
+        width: 100%;
+    }
+    .hero {
+        margin-top: -10px;
+    }
+    .card h2{
+        border-right: none;
+        border-bottom: 4px solid var(--secondary-color);
+        text-align: left;
+        font-size: 3em;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .flex-item:nth-child(1) {
+     min-height: 150px;
+}
