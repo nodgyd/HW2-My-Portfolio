@@ -19,6 +19,9 @@ Create a new repository on your GitHub account and clone it to your computer.
 When you're ready to deploy, use the git add, git commit, and git push commands to save and push your code to your GitHub repository.
 
 Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+  
+## Project URL
+https://nodgyd.github.io/HW2-My-Portfolio/
 
 ## Project URL
 https://nodgyd.github.io/HW2-My-Portfolio/
