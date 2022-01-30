@@ -179,6 +179,18 @@ main {
     background-image: url(../Assets/Images/photo-1592210454359-9043f067919b.png);
 }
 
+.readme {
+    background-image: url(../Assets/Images/20201006-nanos-linkedin-read-me-first-1488x744.jpg);
+}
+
+.backend {
+    background-image: url(../Assets/Images/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png);
+}
+
+.crypto {
+    background-image: url(../Assets/Images/a-beginners-guide.jpg);
+}
+
 .flex-item div {
     background-size: var(--secondary-color);
     padding-right: 8px 10px;
